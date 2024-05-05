@@ -1,0 +1,26 @@
+,---------------------------------------------------------------------------------------------------------------------------.                                 
+|MaquinaRefrigerante                                                                                                        |                                 
+|---------------------------------------------------------------------------------------------------------------------------|                                 
+|- nome: String                                                                                                             |                                 
+|- valor: float                                                                                                             |                                 
+|- estoque: int                                                                                                             |                                 
+|- usuario: Usuario                                                                                                         |                                 
+|                                                                                                                           |  ,-----------------------------.
+|+ setNome(String nome): void                                                                                               |  |Usuario                      |
+|+ getNome(): String                                                                                                        |  |-----------------------------|
+|+ setValor(float valor): void                                                                                              |  |- nome: String               |
+|+ getValor(): float                                                                                                        |  |- saldo: float               |
+|+ setEstoque(int estoque): void                                                                                            |  |                             |
+|+ getEstoque(): int                                                                                                        |  |+ setNome(String nome): void |
+|+ setUsuario(Usuario usuario): void                                                                                        |  |+ getNome(): String          |
+|+ getUsuario(): Usuario                                                                                                    |  |+ setSaldo(float saldo): void|
+|+ removerDoEstoque(int quantidade): void                                                                                   |  |+ getSaldo(): float          |
+|+ iniciar(): void                                                                                                          |  |+ adicionarFundos(): void    |
+|+ static exibirMenu(float saldo): void                                                                                     |  |+ retirarTroco(): void       |
+|+ visualizarRefrigerante(): void                                                                                           |  `-----------------------------'
+|+ static verRefrigerantes(MaquinaRefrigerante[] refrigerantes, Usuario usuario, Scanner scanner): void                     |                                 
+|+ static comprarRefrigerantes(MaquinaRefrigerante[] refrigerantes, Usuario usuario, Scanner scanner): void                 |                                 
+|+ static sistemaDeTroco(Usuario usuario, Scanner scanner): void                                                            |                                 
+|+ static notaDePagamentos(Usuario usuario, MaquinaRefrigerante[] refrigerantes, int refriSelecionado, int quantidade): void|                                 
+|+ static confirmar(Scanner scanner): void                                                                                  |                                 
+`---------------------------------------------------------------------------------------------------------------------------'              
